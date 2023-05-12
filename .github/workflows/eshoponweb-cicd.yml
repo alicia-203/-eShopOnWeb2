@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: cloud-shell-storage-southcentralus
   LOCATION: westus
-  TEMPLATE-FILE: .azure/bicep/webapp.bicep
+  TEMPLATE-FILE: '.azure/bicep/webapp.bicep'
   SUBSCRIPTION-ID: 23cd5b67-5bac-4f43-92cf-98b65275128d
   WEBAPP-NAME: WorkFlow01
 
