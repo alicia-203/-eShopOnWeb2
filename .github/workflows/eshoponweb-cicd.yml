@@ -11,7 +11,6 @@ env:
   SUBSCRIPTION-ID: 23cd5b67-5bac-4f43-92cf-98b65275128d
   WEBAPP-NAME: az400-labwebapp
 
-
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
