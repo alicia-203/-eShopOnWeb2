@@ -6,10 +6,10 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: cloud-shell-storage-southcentralus
-  LOCATION: westeurope
+  LOCATION: westus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 23cd5b67-5bac-4f43-92cf-98b65275128d
-  WEBAPP-NAME: az400-labwebapp
+  WEBAPP-NAME: WorkFlow01
 
 jobs:
   #Build, test and publish .net web project in repository
